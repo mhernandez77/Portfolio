@@ -1,16 +1,23 @@
-#grad1 {
-    height: 200px;
-    background-color: #cccccc;
-    background-image: linear-gradient(lightpink, lightblue);
-}
+
+/*#grad1 {*/
+/*    height: 200px;*/
+/*    background-color: #cccccc;*/
+/*    background-image: linear-gradient(lightpink, lightblue);*/
+/*}*/
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    background-image: url("../Portfolio/images/background.jpg"),
+    linear-gradient(lightpink, lightblue);
+    background-repeat: round;
+    background-size: 100%;
+
 }
 
 html {
     box-sizing: border-box;
+    background-image: url("../Portfolio/images/background.jpg"),
+    linear-gradient(lightpink, lightblue);
 }
 
 *, *:before, *:after {
@@ -39,8 +46,10 @@ html {
 .about-section {
     padding: 50px;
     text-align: center;
-    background-color: #474e5d;
-    color: white;
+    /*background-color: #474e5d;*/
+    /*color: white;*/
+    background-image: url("../Portfolio/images/background.jpg"),
+    linear-gradient(lightpink, lightblue);
 }
 
 .container {
@@ -53,10 +62,6 @@ html {
     display: table;
 }
 
-.title {
-    color: grey;
-}
-
 .button {
     border: none;
     outline: 0;
@@ -67,8 +72,6 @@ html {
     border-image: linear-gradient(to right, darkblue, darkorchid) 1;
     text-align: center;
     cursor: pointer;
-    width: 100%;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
