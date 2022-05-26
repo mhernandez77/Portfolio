@@ -1,96 +1,130 @@
+/*.multi-bg{*/
+/*    left: 350px;*/
+/*    top: 450px;*/
+/*    width: 500px;*/
+/*    height: 360px;*/
+/*    background-image: url("https://mhernandez77.github.io/Portfolio/images/background.jpg"),*/
+/*    radial-gradient(lightblue,lightpink);*/
+/*    background-repeat: no-repeat,*/
+/*    no-repeat;*/
+/*    background-position: bottom,*/
+/*    right;*/
+/*}*/
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+
+a:link, a:visited {
+    background-color: #B795E0AB;
+    color: white;
+    border-image: linear-gradient(to right, darkblue, darkorchid);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
+a:hover, a:active {
+    background-color: hotpink;
+}
 
 
 .intro-text {
-    position: absolute;
+    position: relative;
     text-align: center;
     text-shadow: lightblue;
-}
-
-
-.main-page {
-    background-image: url("https://mhernandez77.github.io/Portfolio/images/background.jpg");
-    background-color: rgba(183, 149, 224, 0.67);
+    color: white;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+.main-page {
+    background-image: url("https://mhernandez77.github.io/Portfolio/images/background.jpg"),
+    radial-gradient(lightblue,lightpink);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
     position: relative;
     z-index: initial;
+    height: 500px;
+    /*background-size: cover;*/
+    /*position: relative;*/
+    /*z-index: initial;*/
 }
 
-html {
+/**, *:before, *:after {*/
+ p::before{
+     content: "♥";
     box-sizing: border-box;
-    min-width: 550px;
     position: relative;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-.column {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-}
-
-.portrait {
+#portrait {
     display: block;
     position: center;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     height: 50%;
-    z-index: auto;
 }
 
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
-    position: absolute;
-}
-
-.about-section {
-    padding: 50px;
+#about-me{
+    background-image: radial-gradient(lightblue,lightpink);
+    height: 1000px;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    position: relative;
+    z-index: initial;
+    font-family: DengXian, Verdana, Helvetica;
+    font-size: 24px;
+    color: lightslategrey;
     text-align: center;
-    position: absolute;
-    /*background-color: #474e5d;*/
-    /*color: white;*/
+    vertical-align: middle;
+    text-shadow: 0px 0px 10px #000;
+}
+
+.button{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    text-align: center;
 
 }
 
 .container {
-    padding: 0 16px;
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    color: red;
+    border: 1px;
+    flex-flow: row wrap;
 }
 
-.container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-    position: absolute;
-}
-
-.button {
-    border: none;
-    outline: 0;
+.card {
+    margin: 8px;
     display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
-    text-align: center;
-    cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
+
+.project-page {
+    background-image: radial-gradient(lightblue,lightpink);
+    height: 1500px;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    position: relative;
+    z-index: initial;
+    font-family: DengXian, Verdana, Helvetica, serif;
+    font-size: 24px;
+    color: lightslategrey;
+    vertical-align: middle;
+    text-shadow: 0px 0px 10px #000;
+    font-family: DengXian, Verdana, Helvetica;
+    font-size: 24px;
+    text-align: match-parent;
+    text-shadow: 0px 0px 10px #000;
+}
+
 
 .button:hover {
     background-color: #555;
