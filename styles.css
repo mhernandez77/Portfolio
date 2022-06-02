@@ -1,31 +1,29 @@
-/*.multi-bg{*/
-/*    left: 350px;*/
-/*    top: 450px;*/
-/*    width: 500px;*/
-/*    height: 360px;*/
-/*    background-image: url("https://mhernandez77.github.io/Portfolio/images/background.jpg"),*/
-/*    radial-gradient(lightblue,lightpink);*/
-/*    background-repeat: no-repeat,*/
-/*    no-repeat;*/
-/*    background-position: bottom,*/
-/*    right;*/
-/*}*/
+
 
 
 a:link, a:visited {
-    background-color: #B795E0AB;
+    background-color: #EAB9D2FF;
     color: white;
-    border-image: linear-gradient(to right, darkblue, darkorchid);
-    padding: 14px 25px;
+    border: 0;
+    padding: 25px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-size: larger;
 }
 
 a:hover, a:active {
-    background-color: hotpink;
+    background-color: #e8a1c4;
 }
 
+.navbar navbar-expand-lg bg-light{
+    height: 20px;
+}
+
+.container-fluid{
+    background-color: rgba(183, 149, 224, 0.67);
+    height: 100px;
+}
 
 .intro-text {
     position: relative;
@@ -47,7 +45,7 @@ a:hover, a:active {
     background-size: cover;
     position: relative;
     z-index: initial;
-    height: 500px;
+    height: 700px;
     /*background-size: cover;*/
     /*position: relative;*/
     /*z-index: initial;*/
@@ -90,6 +88,7 @@ a:hover, a:active {
     width: 100px;
     display: flex;
     text-align: center;
+    color: whitesmoke;
 
 }
 
@@ -114,15 +113,12 @@ a:hover, a:active {
     background-size: cover;
     position: relative;
     z-index: initial;
-    font-family: DengXian, Verdana, Helvetica, serif;
     font-size: 24px;
     color: lightslategrey;
     vertical-align: middle;
     text-shadow: 0px 0px 10px #000;
     font-family: DengXian, Verdana, Helvetica;
-    font-size: 24px;
     text-align: match-parent;
-    text-shadow: 0px 0px 10px #000;
 }
 
 
