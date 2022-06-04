@@ -79,9 +79,9 @@ section {
     text-align: center;
 }
 
-.div {
-    height: 100%;
-}
+/*.div {*/
+/*    height: 100%;*/
+/*}*/
 
 .article {
     position: absolute;
@@ -99,14 +99,14 @@ section {
 }
 
 .left-half {
-    background-color: #ff9e2c;
+    /*background-color: slategrey;*/
     position: absolute;
     left: 0px;
     width: 50%;
 }
 
 .right-half {
-    background-color: #b6701e;
+    /*background-color: slateblue;*/
     position: absolute;
     right: 0px;
     width: 50%;
@@ -117,25 +117,26 @@ section {
     position: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
 }
 
-/*#about-me{*/
-/*    background-image: radial-gradient(lightblue,lightpink);*/
-/*    height: 1000px;*/
-/*    background-position: center;*/
-/*    background-repeat: repeat-x;*/
-/*    background-size: cover;*/
-/*    position: relative;*/
-/*    z-index: initial;*/
-/*    font-family: DengXian, Verdana, Helvetica;*/
-/*    font-size: 24px;*/
-/*    !*color: lightslategrey;*!*/
-/*    text-align: center;*/
-/*    vertical-align: middle;*/
-/*    text-shadow: 0px 0px 10px #000;*/
-/*}*/
+#about-me{
+    display: table;
+    width: 100%;
+    background-image: radial-gradient(lightblue,lightpink);
+    height: 1000px;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    position: relative;
+    z-index: initial;
+    font-family: DengXian, Verdana, Helvetica;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 0px 0px 10px #000;
+}
 
 .aboutme-page{
     background-image: radial-gradient(lightblue,lightpink);
