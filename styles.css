@@ -58,6 +58,60 @@ a:hover, a:active {
     position: relative;
 }
 
+h1 {
+    text-align: center;
+    /*font-size: 1.75rem;*/
+    /*margin: 0 0 0.75rem 0;*/
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.50rem;
+    font-family: sans-serif;
+    line-height: 150%;
+    text-shadow: 0 2px 2px #1e8db6;
+}
+section {
+    color: #fff;
+    text-align: center;
+}
+
+.div {
+    height: 100%;
+}
+
+.article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px;
+}
+
+/* Pattern styles */
+.container {
+    display: table;
+    width: 100%;
+}
+
+.left-half {
+    background-color: #ff9e2c;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+}
+
+.right-half {
+    background-color: #b6701e;
+    position: absolute;
+    right: 0px;
+    width: 50%;
+}
+
 #portrait {
     display: block;
     position: center;
@@ -67,20 +121,30 @@ a:hover, a:active {
     height: 50%;
 }
 
-#about-me{
+/*#about-me{*/
+/*    background-image: radial-gradient(lightblue,lightpink);*/
+/*    height: 1000px;*/
+/*    background-position: center;*/
+/*    background-repeat: repeat-x;*/
+/*    background-size: cover;*/
+/*    position: relative;*/
+/*    z-index: initial;*/
+/*    font-family: DengXian, Verdana, Helvetica;*/
+/*    font-size: 24px;*/
+/*    !*color: lightslategrey;*!*/
+/*    text-align: center;*/
+/*    vertical-align: middle;*/
+/*    text-shadow: 0px 0px 10px #000;*/
+/*}*/
+
+.aboutme-page{
     background-image: radial-gradient(lightblue,lightpink);
-    height: 1000px;
     background-position: center;
     background-repeat: repeat-x;
     background-size: cover;
     position: relative;
     z-index: initial;
-    font-family: DengXian, Verdana, Helvetica;
-    font-size: 24px;
-    color: lightslategrey;
-    text-align: center;
-    vertical-align: middle;
-    text-shadow: 0px 0px 10px #000;
+    height: 1000px;
 }
 
 .button{
@@ -93,9 +157,10 @@ a:hover, a:active {
 }
 
 .container {
+    text-align: center;
     display: flex;
     flex-direction: row;
-    color: red;
+    color: #ff0090;
     border: 1px;
     flex-flow: row wrap;
 }
@@ -114,7 +179,7 @@ a:hover, a:active {
     position: relative;
     z-index: initial;
     font-size: 24px;
-    color: lightslategrey;
+    /*color: lightslategrey;*/
     vertical-align: middle;
     text-shadow: 0px 0px 10px #000;
     font-family: DengXian, Verdana, Helvetica;
